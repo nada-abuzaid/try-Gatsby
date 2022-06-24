@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/Layout';
+import { StaticImage } from 'gatsby-plugin-image';
 import * as styles from '../styles/home.module.css';
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
             My Portfolio Projects
           </Link>
         </div>
+        <StaticImage src='../assets/images/banner.png' alt='Site banner' />
       </section>
     </Layout>
   );
